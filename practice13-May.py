@@ -15,3 +15,10 @@ print(netTotal)
 productwarehouse = "Warehouse abc INC"
 productTitle= "IPhone 17 Pro Max"
 productsale = 50000
+
+discount = 3 
+percentage = 3 / netTotal * 100
+print(productwarehouse + productTitle)
+print(productwarehouse + str(price))
+
+print (netTotal - total)
