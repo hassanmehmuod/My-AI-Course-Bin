@@ -1,0 +1,26 @@
+booktitle = "Think and grow rich"
+bookprice = 45.50
+bookauthor = "ABC"
+bookyear = 2025
+
+print(bookyear)
+print(booktitle)
+print(bookauthor)
+print(bookprice)
+print(type(bookyear))
+print(type(booktitle))
+print(type(bookauthor))
+print(type(bookprice))
+
+bookdiscountprice = bookprice - (bookprice * .10)
+
+print(bookdiscountprice)
+
+bookinfo = "think and grow rich is very fantastic book i read it multiple time"
+print(bookinfo[15:20])
+
+age = int(input("Please enter your age: "))
+if age > 10:
+    print("Number is greater")
+else:
+    print("number is smaller")
