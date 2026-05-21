@@ -1,0 +1,67 @@
+# #Question No 1
+
+# print("Program for converting temperature from celcius to fahtenheit")
+# Celcius = int(input('Enter temperature in Celsius: '))
+# print('Temperature in Celcius: ', Celcius)
+# fahrenheit = (Celcius*9/5)+32
+# print("Temperature in fahrenheit: ",fahrenheit)
+
+
+# #Question No 2
+
+# print("Program for calculating the Area of a Rectangle")
+# length = int(input("Enter length of Rectangle: "))
+# width = int(input("Enter width of Rectangle: "))
+# area = length* width
+# print('Area of Rectangle is: ',area)
+
+
+# #Question No 3
+
+# print("Program for calculating the compound interest")
+# principle = int(input("Enter Principle (Total ammount of money) :  "))
+# rate = float(input("Enter interest rate: "))
+# time = int(input("Enter time frame (input in years) :  "))
+# compountInterest = principle * (1 + rate/100)**time - principle
+# print("Your ammount: ", principle, "\nYour rate: ", rate, "\nYour time Frame: ", time)
+# print("Your compound interest will be : ",compountInterest)
+
+
+# #Question No 4
+
+# print("Program for calculating the parameter of a Rectangle")
+# length = int(input("Enter length of Rectangle: "))
+# width = int(input("Enter width of Rectangle: "))
+# parameter = 2*(length + width)
+# print('Parameter of Rectangle is: ',parameter)
+
+
+# #Question No 5
+
+# print("Program of calculating average of 3 numbers")
+# a = int(input("Enter 1st number: "))
+# b = int(input("Enter 2nd number: "))
+# c = int(input("Enter 3rd number: "))
+# average = (a+b+c)/3
+# print("\nFirst number is: ", a)
+# print("Second number is: ", b)
+# print("Third number is: ", c)
+# print("Average of 3 numbers are: ", average)
+
+
+# #Question No 6
+
+# print("Program for calculating square and cube of given number")
+# number = int(input("Enter number: "))
+# square = number**2
+# cube = number**3
+# print("Square of given Number is : ",square, "\nCube of given number is: ",cube)
+
+
+#Question No 7
+
+print("This program prints candies division in students")
+n = int(input("Enter number of candies: "))
+k = int(input("Enter number of students: "))
+distribution = n/k
+print("Number of candies single student gets: ",distribution)
