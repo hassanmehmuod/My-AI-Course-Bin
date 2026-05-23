@@ -60,8 +60,90 @@
 
 #Question No 7
 
-print("This program prints candies division in students")
-n = int(input("Enter number of candies: "))
-k = int(input("Enter number of students: "))
-distribution = n/k
-print("Number of candies single student gets: ",distribution)
+# print("This program prints candies division in students")
+# n = int(input("Enter number of candies: "))
+# k = int(input("Enter number of students: "))
+# distribution = n//k
+# remaining = n % k 
+# print("Number of candies single student gets: ",distribution)
+# print("Number of student remaining: ",remaining)
+
+
+#Question No 8
+
+# print("Program for displaying either profit or loss")
+# buyingPrice = int(input("Enter price you bought it for: "))
+# sellingPrice = int(input("Enter price you sell it for: "))
+# if buyingPrice < sellingPrice:
+#     profit=sellingPrice-buyingPrice
+#     print("it in profit of : ",profit)
+# if buyingPrice > sellingPrice:
+#     loss=buyingPrice-sellingPrice
+#     print("it in loss of : ",loss)
+# if buyingPrice == sellingPrice:
+#     print("No profit no loss ")
+
+
+#Question No 9
+
+# print("This program calculates marks in average and percentage")
+# subject1 = int(input("Enter first subject marks : "))
+# subject2 = int(input("Enter second subject marks : "))
+# subject3 = int(input("Enter third subject marks : "))
+# subject4 = int(input("Enter fourth subject marks : "))
+# subject5 = int(input("Enter fifth subject marks : "))
+# totalmarks = 500
+# obtainedMarks = subject1+subject2+subject3+subject4+subject5
+# percentage = obtainedMarks/totalmarks* 100
+# average = (subject1+subject2+subject3+subject4+subject5)/5
+# print("Obtained marks from 500 is : ", obtainedMarks)
+# print("Percentage is : ", percentage)
+# print("average is  : ", average)
+
+
+# #Question No 10
+
+# print("This program print total salary after calculation")
+# salary = int(input("Enter your basic salary: "))
+# hda = salary * .20
+# da = salary * .15
+# totalsalary = salary + hda + da
+# print("Total salary after hda and da is : ",totalsalary)
+
+
+#Question No 11
+
+# print("This Program calculates age in days and months")
+# ageInYears = int(input("Enter your age in years: "))
+# ageInMonths = ageInYears * 12
+# ageInDays = ageInMonths * 30
+# print("your age in months are: ", ageInMonths) 
+# print("your age in days are (approximately): ", ageInDays) 
+
+
+#Question No 12
+
+# print("This program converts USD to PKR")
+# amountUSD = int(input("Enter amount in USD: "))
+# amountPKR = amountUSD * 278.14
+# print("After conversion your amount in PKR is : ", amountPKR)
+
+
+#Question No 13
+
+# print("This program calculate sum of n number of natural numbers")
+# n = int(input("Enter number n: "))
+# sum = n * (n+1)/2
+# print("Sum of natural number till n is : ", sum)
+
+
+#Question No 14
+
+# print("This Program calculates percentage for correct answers")
+# totalQuestion = int(input("Enter total number of Questions : "))
+# correctAnswers = int(input("Enter number of correct answers : "))
+# percentage = correctAnswers/totalQuestion *100
+# print("Percentage of correct answers are : ", percentage)
+
+
+#Question No 15
