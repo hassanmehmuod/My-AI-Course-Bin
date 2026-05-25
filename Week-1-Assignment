@@ -147,3 +147,29 @@
 
 
 #Question No 15
+
+# print("This program calculates distance and time and calculates speed")
+# Distance = float(input("Enter distance in kilometer: "))
+# time = float(input("Enter time in hours: "))
+# speed = Distance/time
+# print("speed is: ",speed)
+
+
+#Question No 16
+
+# print("This program calculates Body Mass Index")
+# weight = float(input("Enter weight in kg's: "))
+# height = float(input("Enter height in meters : "))
+# bmi = weight/(height**2)
+# print("Your BMI is: ", bmi)
+
+
+#Question No 17
+
+# print("This program converts minutes into hours")
+# minutes = int(input("Enter time in minutes: "))
+# unit = 'hours'
+# hours = minutes//60
+# remainingMinutes = minutes%60
+# print("Given minutes in hour are  ",hours,"hours",remainingMinutes, "minutes")
+yuiop]\
