@@ -196,5 +196,7 @@
 # print(str[-1])
 
 #check substring presence
-str = 'data science'
-print('data' in str)
+# str = 'data science'
+# print('data' in str)
+
+#slice a string 
