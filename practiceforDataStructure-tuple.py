@@ -7,4 +7,4 @@ for i in MobileTuple:
 
 print(MobileTuple[1])
 print(type(MobileTuple[1]))
-MobileTuple
+

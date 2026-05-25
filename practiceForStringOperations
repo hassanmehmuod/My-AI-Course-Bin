@@ -1,0 +1,13 @@
+str = "Iphone is a top brand of the world, and its latest product is IPhone 17 pro max whose price is 555000"
+print(str)
+print(type(str))
+
+# for i in str:
+#     print(i)
+
+# print(str.upper())
+# print(str.lower())
+# print(str.swapcase())
+
+print(str[-38:-22:1])
+print(str[-6:-1])
