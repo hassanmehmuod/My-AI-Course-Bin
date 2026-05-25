@@ -172,3 +172,29 @@
 # hours = minutes//60
 # remainingMinutes = minutes%60
 # print("Given minutes in hour are  ",hours,"hours",remainingMinutes, "minutes")
+
+
+
+#Assignemnt 20 Questions
+
+#Length of a string
+# str = 'hello world'
+# print(len(str))
+
+#uppercase and lowercase
+# str = "Python3"
+# print(str.upper(), str.lower())
+
+#count a charachter
+# str = 'banana'
+# print(str.count("a"))
+
+
+#first and last character
+# str = 'my name is hassan'
+# print(str[0:1])
+# print(str[-1])
+
+#check substring presence
+str = 'data science'
+print('data' in str)
