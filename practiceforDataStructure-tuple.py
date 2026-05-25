@@ -6,3 +6,5 @@ for i in MobileTuple:
     print(i)
 
 print(MobileTuple[1])
+print(type(MobileTuple[1]))
+MobileTuple
