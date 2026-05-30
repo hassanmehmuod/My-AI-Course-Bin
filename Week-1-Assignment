@@ -177,26 +177,101 @@
 
 #Assignemnt 20 Questions
 
+#1.
 #Length of a string
 # str = 'hello world'
 # print(len(str))
 
+#2.
 #uppercase and lowercase
 # str = "Python3"
 # print(str.upper(), str.lower())
 
+#3.
 #count a charachter
 # str = 'banana'
 # print(str.count("a"))
 
-
+#4.
 #first and last character
 # str = 'my name is hassan'
 # print(str[0:1])
 # print(str[-1])
 
+
+#5.
 #check substring presence
 # str = 'data science'
 # print('data' in str)
 
+#6.
 #slice a string 
+# str = 'programming'
+# print(str[3:8])
+
+# 7.
+#reverse a string
+# str = 'python'
+# print(str[::-1])
+
+#8.
+#Replacing substring
+# str = 'i love apples, apples are great'
+# print(str.replace('apples' , 'orange'))
+
+#9.
+#split and join
+# str = "split the sentence"
+# words = str.split()
+# print('-'.join(words))
+
+#10.
+#strip whitespace
+# str = '  padded text '
+# print(str.strip())
+
+#11.
+#count vowel and consonants
+# str = 'hello world! 123'
+# count = 0
+# count2 = 0
+# for i in str:
+#     if i in 'aeiou':
+#         count+=1
+#     elif i.isalpha() and i not in "aeiou":
+#         count2+=1
+
+# print("Vowels are: ", count)
+# print("consonants are: ", count2)
+
+#12.
+# str = 'A man, a plan, a canal: Panama!'
+# cleaned = ''
+# for i in str:
+#     if i.isalnum():
+#         cleaned+=i.lower()
+# print(cleaned)
+# newStr = cleaned[::-1]
+# print(newStr)
+# if cleaned == newStr:
+#     print("It is a palindrome")
+
+#13.
+# text = "hELLO wORLD from PYHTON"
+# newstr = ''
+# words = text.split()
+# for word in words:
+#     newstr +=  word[0].upper()+word[1:].lower() + ' '
+# print(newstr)
+
+#14.
+# s = 'aaaa'
+# sub = 'aa'
+# count = 0
+# indices = []
+# for i in range(len(s) - len(sub) + 1):
+#     if s[i:i+len(sub)] == sub:
+#         indices.append(i)
+# print(indices)
+
+#15
