@@ -4,10 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-URL = "http://www.daraz.pk/catalog/?spm=a2a0e.tm80331704.cate_5.5.77cc5aa7fPImi7&q=Smart%20Phones&from=hp_categories&src=all_channel"
-r = requests.get(URL)
-
-soup = BeautifulSoup(r.content, "html5lib")
+with open("D:\\Work\\Github\\My-AI-Course-Bin\\Webscrapping\\Daraz\\Daraz.pk.html", 'r', encoding='utf-8') as file:
+    soup = BeautifulSoup(file, 'html5lib')
 
 smartphone = []
 
@@ -21,8 +19,8 @@ for row in table.find_all('div',
     smartphones['discription'] = row.img['alt']
     smartphone.append(smartphones)
 
-filename = 'MY-AI-COURSE-BIN/Webscrapping/smart-phonesData-BeautifulSoap.csv'
-with open(filename, 'w', newline='') as f:
+filename = 'D:\Work\Github\My-AI-Course-Bin\Webscrapping\Daraz\smart-phonesData-BeautifulSoap.csv'
+with open(filename, 'w', newline='', encoding='utf-8') as f:
     w = csv.DictWriter(f,['url', 'img', 'discription'])
     w.writeheader()
     for smartphones in smartphone:
