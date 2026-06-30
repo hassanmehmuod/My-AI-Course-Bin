@@ -1,277 +1,828 @@
-# #Question No 1
+#Question No 1
 
-# print("Program for converting temperature from celcius to fahtenheit")
-# Celcius = int(input('Enter temperature in Celsius: '))
-# print('Temperature in Celcius: ', Celcius)
-# fahrenheit = (Celcius*9/5)+32
-# print("Temperature in fahrenheit: ",fahrenheit)
-
-
-# #Question No 2
-
-# print("Program for calculating the Area of a Rectangle")
-# length = int(input("Enter length of Rectangle: "))
-# width = int(input("Enter width of Rectangle: "))
-# area = length* width
-# print('Area of Rectangle is: ',area)
+print("Program for converting temperature from celcius to fahtenheit")
+Celcius = int(input('Enter temperature in Celsius: '))
+print('Temperature in Celcius: ', Celcius)
+fahrenheit = (Celcius*9/5)+32
+print("Temperature in fahrenheit: ",fahrenheit)
 
 
-# #Question No 3
+#Question No 2
 
-# print("Program for calculating the compound interest")
-# principle = int(input("Enter Principle (Total ammount of money) :  "))
-# rate = float(input("Enter interest rate: "))
-# time = int(input("Enter time frame (input in years) :  "))
-# compountInterest = principle * (1 + rate/100)**time - principle
-# print("Your ammount: ", principle, "\nYour rate: ", rate, "\nYour time Frame: ", time)
-# print("Your compound interest will be : ",compountInterest)
+print("Program for calculating the Area of a Rectangle")
+length = int(input("Enter length of Rectangle: "))
+width = int(input("Enter width of Rectangle: "))
+area = length* width
+print('Area of Rectangle is: ',area)
 
 
-# #Question No 4
+#Question No 3
 
-# print("Program for calculating the parameter of a Rectangle")
-# length = int(input("Enter length of Rectangle: "))
-# width = int(input("Enter width of Rectangle: "))
-# parameter = 2*(length + width)
-# print('Parameter of Rectangle is: ',parameter)
-
-
-# #Question No 5
-
-# print("Program of calculating average of 3 numbers")
-# a = int(input("Enter 1st number: "))
-# b = int(input("Enter 2nd number: "))
-# c = int(input("Enter 3rd number: "))
-# average = (a+b+c)/3
-# print("\nFirst number is: ", a)
-# print("Second number is: ", b)
-# print("Third number is: ", c)
-# print("Average of 3 numbers are: ", average)
+print("Program for calculating the compound interest")
+principle = int(input("Enter Principle (Total ammount of money) :  "))
+rate = float(input("Enter interest rate: "))
+time = int(input("Enter time frame (input in years) :  "))
+compountInterest = principle * (1 + rate/100)**time - principle
+print("Your ammount: ", principle, "\nYour rate: ", rate, "\nYour time Frame: ", time)
+print("Your compound interest will be : ",compountInterest)
 
 
-# #Question No 6
+#Question No 4
 
-# print("Program for calculating square and cube of given number")
-# number = int(input("Enter number: "))
-# square = number**2
-# cube = number**3
-# print("Square of given Number is : ",square, "\nCube of given number is: ",cube)
+print("Program for calculating the parameter of a Rectangle")
+length = int(input("Enter length of Rectangle: "))
+width = int(input("Enter width of Rectangle: "))
+parameter = 2*(length + width)
+print('Parameter of Rectangle is: ',parameter)
+
+
+#Question No 5
+
+print("Program of calculating average of 3 numbers")
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
+c = int(input("Enter 3rd number: "))
+average = (a+b+c)/3
+print("\nFirst number is: ", a)
+print("Second number is: ", b)
+print("Third number is: ", c)
+print("Average of 3 numbers are: ", average)
+
+
+#Question No 6
+
+print("Program for calculating square and cube of given number")
+number = int(input("Enter number: "))
+square = number**2
+cube = number**3
+print("Square of given Number is : ",square, "\nCube of given number is: ",cube)
 
 
 #Question No 7
 
-# print("This program prints candies division in students")
-# n = int(input("Enter number of candies: "))
-# k = int(input("Enter number of students: "))
-# distribution = n//k
-# remaining = n % k 
-# print("Number of candies single student gets: ",distribution)
-# print("Number of student remaining: ",remaining)
+print("This program prints candies division in students")
+n = int(input("Enter number of candies: "))
+k = int(input("Enter number of students: "))
+distribution = n//k
+remaining = n % k 
+print("Number of candies single student gets: ",distribution)
+print("Number of student remaining: ",remaining)
 
 
 #Question No 8
 
-# print("Program for displaying either profit or loss")
-# buyingPrice = int(input("Enter price you bought it for: "))
-# sellingPrice = int(input("Enter price you sell it for: "))
-# if buyingPrice < sellingPrice:
-#     profit=sellingPrice-buyingPrice
-#     print("it in profit of : ",profit)
-# if buyingPrice > sellingPrice:
-#     loss=buyingPrice-sellingPrice
-#     print("it in loss of : ",loss)
-# if buyingPrice == sellingPrice:
-#     print("No profit no loss ")
+print("Program for displaying either profit or loss")
+buyingPrice = int(input("Enter price you bought it for: "))
+sellingPrice = int(input("Enter price you sell it for: "))
+if buyingPrice < sellingPrice:
+    profit=sellingPrice-buyingPrice
+    print("it in profit of : ",profit)
+if buyingPrice > sellingPrice:
+    loss=buyingPrice-sellingPrice
+    print("it in loss of : ",loss)
+if buyingPrice == sellingPrice:
+    print("No profit no loss ")
 
 
 #Question No 9
 
-# print("This program calculates marks in average and percentage")
-# subject1 = int(input("Enter first subject marks : "))
-# subject2 = int(input("Enter second subject marks : "))
-# subject3 = int(input("Enter third subject marks : "))
-# subject4 = int(input("Enter fourth subject marks : "))
-# subject5 = int(input("Enter fifth subject marks : "))
-# totalmarks = 500
-# obtainedMarks = subject1+subject2+subject3+subject4+subject5
-# percentage = obtainedMarks/totalmarks* 100
-# average = (subject1+subject2+subject3+subject4+subject5)/5
-# print("Obtained marks from 500 is : ", obtainedMarks)
-# print("Percentage is : ", percentage)
-# print("average is  : ", average)
+print("This program calculates marks in average and percentage")
+subject1 = int(input("Enter first subject marks : "))
+subject2 = int(input("Enter second subject marks : "))
+subject3 = int(input("Enter third subject marks : "))
+subject4 = int(input("Enter fourth subject marks : "))
+subject5 = int(input("Enter fifth subject marks : "))
+totalmarks = 500
+obtainedMarks = subject1+subject2+subject3+subject4+subject5
+percentage = obtainedMarks/totalmarks* 100
+average = (subject1+subject2+subject3+subject4+subject5)/5
+print("Obtained marks from 500 is : ", obtainedMarks)
+print("Percentage is : ", percentage)
+print("average is  : ", average)
 
 
-# #Question No 10
+#Question No 10
 
-# print("This program print total salary after calculation")
-# salary = int(input("Enter your basic salary: "))
-# hda = salary * .20
-# da = salary * .15
-# totalsalary = salary + hda + da
-# print("Total salary after hda and da is : ",totalsalary)
+print("This program print total salary after calculation")
+salary = int(input("Enter your basic salary: "))
+hda = salary * .20
+da = salary * .15
+totalsalary = salary + hda + da
+print("Total salary after hda and da is : ",totalsalary)
 
 
 #Question No 11
 
-# print("This Program calculates age in days and months")
-# ageInYears = int(input("Enter your age in years: "))
-# ageInMonths = ageInYears * 12
-# ageInDays = ageInMonths * 30
-# print("your age in months are: ", ageInMonths) 
-# print("your age in days are (approximately): ", ageInDays) 
+print("This Program calculates age in days and months")
+ageInYears = int(input("Enter your age in years: "))
+ageInMonths = ageInYears * 12
+ageInDays = ageInMonths * 30
+print("your age in months are: ", ageInMonths) 
+print("your age in days are (approximately): ", ageInDays) 
 
 
 #Question No 12
 
-# print("This program converts USD to PKR")
-# amountUSD = int(input("Enter amount in USD: "))
-# amountPKR = amountUSD * 278.14
-# print("After conversion your amount in PKR is : ", amountPKR)
+print("This program converts USD to PKR")
+amountUSD = int(input("Enter amount in USD: "))
+amountPKR = amountUSD * 278.14
+print("After conversion your amount in PKR is : ", amountPKR)
 
 
 #Question No 13
 
-# print("This program calculate sum of n number of natural numbers")
-# n = int(input("Enter number n: "))
-# sum = n * (n+1)/2
-# print("Sum of natural number till n is : ", sum)
+print("This program calculate sum of n number of natural numbers")
+n = int(input("Enter number n: "))
+sum = n * (n+1)/2
+print("Sum of natural number till n is : ", sum)
 
 
 #Question No 14
 
-# print("This Program calculates percentage for correct answers")
-# totalQuestion = int(input("Enter total number of Questions : "))
-# correctAnswers = int(input("Enter number of correct answers : "))
-# percentage = correctAnswers/totalQuestion *100
-# print("Percentage of correct answers are : ", percentage)
+print("This Program calculates percentage for correct answers")
+totalQuestion = int(input("Enter total number of Questions : "))
+correctAnswers = int(input("Enter number of correct answers : "))
+percentage = correctAnswers/totalQuestion *100
+print("Percentage of correct answers are : ", percentage)
 
 
 #Question No 15
 
-# print("This program calculates distance and time and calculates speed")
-# Distance = float(input("Enter distance in kilometer: "))
-# time = float(input("Enter time in hours: "))
-# speed = Distance/time
-# print("speed is: ",speed)
+print("This program calculates distance and time and calculates speed")
+Distance = float(input("Enter distance in kilometer: "))
+time = float(input("Enter time in hours: "))
+speed = Distance/time
+print("speed is: ",speed)
 
 
 #Question No 16
 
-# print("This program calculates Body Mass Index")
-# weight = float(input("Enter weight in kg's: "))
-# height = float(input("Enter height in meters : "))
-# bmi = weight/(height**2)
-# print("Your BMI is: ", bmi)
+print("This program calculates Body Mass Index")
+weight = float(input("Enter weight in kg's: "))
+height = float(input("Enter height in meters : "))
+bmi = weight/(height**2)
+print("Your BMI is: ", bmi)
 
 
 #Question No 17
 
-# print("This program converts minutes into hours")
-# minutes = int(input("Enter time in minutes: "))
-# unit = 'hours'
-# hours = minutes//60
-# remainingMinutes = minutes%60
-# print("Given minutes in hour are  ",hours,"hours",remainingMinutes, "minutes")
+print("This program converts minutes into hours")
+minutes = int(input("Enter time in minutes: "))
+unit = 'hours'
+hours = minutes//60
+remainingMinutes = minutes%60
+print("Given minutes in hour are  ",hours,"hours",remainingMinutes, "minutes")
 
 
 
 #Assignemnt 20 Questions
 
-#1.
+1.
 #Length of a string
-# str = 'hello world'
-# print(len(str))
+str = 'hello world'
+print(len(str))
+
+2.
+#uppercase and lowercase
+str = "Python3"
+print(str.upper(), str.lower())
+
+3.
+#count a charachter
+str = 'banana'
+print(str.count("a"))
+
+4.
+#first and last character
+str = 'my name is hassan'
+print(str[0:1])
+print(str[-1])
+
+
+5.
+#check substring presence
+str = 'data science'
+print('data' in str)
+
+6.
+#slice a string 
+str = 'programming'
+print(str[3:8])
+
+7.
+#reverse a string
+str = 'python'
+print(str[::-1])
+
+8.
+#Replacing substring
+str = 'i love apples, apples are great'
+print(str.replace('apples' , 'orange'))
+
+9.
+#split and join
+str = "split the sentence"
+words = str.split()
+print('-'.join(words))
+
+10.
+#strip whitespace
+str = '  padded text '
+print(str.strip())
+
+11.
+#count vowel and consonants
+str = 'hello world! 123'
+count = 0
+count2 = 0
+for i in str:
+    if i in 'aeiou':
+        count+=1
+    elif i.isalpha() and i not in "aeiou":
+        count2+=1
+
+print("Vowels are: ", count)
+print("consonants are: ", count2)
+
+12.
+str = 'A man, a plan, a canal: Panama!'
+cleaned = ''
+for i in str:
+    if i.isalnum():
+        cleaned+=i.lower()
+print(cleaned)
+newStr = cleaned[::-1]
+print(newStr)
+if cleaned == newStr:
+    print("It is a palindrome")
+
+13.
+text = "hELLO wORLD from PYHTON"
+newstr = ''
+words = text.split()
+for word in words:
+    newstr +=  word[0].upper()+word[1:].lower() + ' '
+print(newstr)
+
+14.
+s = 'aaaa'
+sub = 'aa'
+count = 0
+indices = []
+for i in range(len(s) - len(sub) + 1):
+    if s[i:i+len(sub)] == sub:
+        indices.append(i)
+print(indices)
+
+#15.
+#character frequency dictionary
+s = "Baa Baa Black Sheep"
+freq = {}
+for ch in s.lower():
+    if ch != ' ':
+        freq[ch] = freq.get(ch, 0) + 1
+print(freq)
+
+#16.
+#anagram checker
+s1 = "Listen"
+s2 = "Silent"
+a = sorted(ch.lower() for ch in s1 if ch.isalpha())
+b = sorted(ch.lower() for ch in s2 if ch.isalpha())
+print(a == b)
+
+#17.
+#compress repeated characters
+s = "aaabbcaaaa"
+result = ''
+count = 1
+for i in range(1, len(s)+1):
+    if i < len(s) and s[i] == s[i-1]:
+        count += 1
+    else:
+        result += s[i-1] + str(count)
+        count = 1
+print(result)
+
+#18.
+#longest word in sentence
+s = "Find the longest_word here!"
+words = s.split()
+longest = ''
+for w in words:
+    clean = ''.join(ch for ch in w if ch.isalpha())
+    if len(clean) > len(longest):
+        longest = clean
+print(longest)
+
+#19.
+#remove duplicate chars keep order
+s = "banana"
+seen = set()
+result = ''
+for ch in s:
+    if ch not in seen:
+        result += ch
+        seen.add(ch)
+print(result)
+
+#20.
+#mask email username
+email = "john.doe@example.com"
+user, domain = email.split('@')
+if len(user) >= 2:
+    masked = user[0] + '*'*(len(user)-2) + user[-1]
+else:
+    masked = user
+print(masked + '@' + domain)
+
+
+#=========Intermediate List Questions=========
+
+#1.
+#squares of even numbers 0-20
+squares = [x**2 for x in range(21) if x % 2 == 0]
+print(squares)
 
 #2.
-#uppercase and lowercase
-# str = "Python3"
-# print(str.upper(), str.lower())
+#sort without modifying original
+nums = [3, 1, 4, 1, 5, 9]
+sorted_nums = sorted(nums)
+print(nums, sorted_nums)
 
 #3.
-#count a charachter
-# str = 'banana'
-# print(str.count("a"))
+#remove duplicates preserve order
+lst = [1, 2, 2, 3, 1, 4]
+seen = []
+for i in lst:
+    if i not in seen:
+        seen.append(i)
+print(seen)
 
 #4.
-#first and last character
-# str = 'my name is hassan'
-# print(str[0:1])
-# print(str[-1])
-
+#flatten nested list
+nested = [[1, 2], [3, 4], [5]]
+flat = [x for sub in nested for x in sub]
+print(flat)
 
 #5.
-#check substring presence
-# str = 'data science'
-# print('data' in str)
+#sort ignoring case
+names = ['alice', 'Bob', 'charlie', 'DAVID']
+print(sorted(names, key=str.lower))
 
 #6.
-#slice a string 
-# str = 'programming'
-# print(str[3:8])
+#slice assignment replace
+a = [1, 2, 3, 4, 5]
+a[2:5] = [100, 200]
+print(a)
 
-# 7.
-#reverse a string
-# str = 'python'
-# print(str[::-1])
+#7.
+#find all indices of value
+lst = [7, 2, 7, 3, 7]
+indices = [i for i, v in enumerate(lst) if v == 7]
+print(indices)
 
 #8.
-#Replacing substring
-# str = 'i love apples, apples are great'
-# print(str.replace('apples' , 'orange'))
+#elements appearing exactly once
+lst = [1, 2, 2, 3, 4, 4, 5]
+unique = [x for x in lst if lst.count(x) == 1]
+print(unique)
 
 #9.
-#split and join
-# str = "split the sentence"
-# words = str.split()
-# print('-'.join(words))
+#rotate list right by one
+lst = [1, 2, 3, 4]
+rotated = lst[-1:] + lst[:-1]
+print(rotated)
 
 #10.
-#strip whitespace
-# str = '  padded text '
-# print(str.strip())
+#split into even and odd lists
+lst = [1, 2, 3, 4, 5, 6]
+evens = [x for x in lst if x % 2 == 0]
+odds = [x for x in lst if x % 2 != 0]
+print(evens, odds)
 
-#11.
-#count vowel and consonants
-# str = 'hello world! 123'
-# count = 0
-# count2 = 0
-# for i in str:
-#     if i in 'aeiou':
-#         count+=1
-#     elif i.isalpha() and i not in "aeiou":
-#         count2+=1
 
-# print("Vowels are: ", count)
-# print("consonants are: ", count2)
+#=========Intermediate Tuple Questions=========
 
-#12.
-# str = 'A man, a plan, a canal: Panama!'
-# cleaned = ''
-# for i in str:
-#     if i.isalnum():
-#         cleaned+=i.lower()
-# print(cleaned)
-# newStr = cleaned[::-1]
-# print(newStr)
-# if cleaned == newStr:
-#     print("It is a palindrome")
+#1.
+#convert list to tuple and unpack
+lst = [1, 2, 3, 4]
+t = tuple(lst)
+a, b, c, d = t
+print(a, b, c, d)
 
-#13.
-# text = "hELLO wORLD from PYHTON"
-# newstr = ''
-# words = text.split()
-# for word in words:
-#     newstr +=  word[0].upper()+word[1:].lower() + ' '
-# print(newstr)
+#2.
+#list of second elements
+t = (('a', 1), ('b', 2), ('c', 3))
+result = [x[1] for x in t]
+print(result)
 
-#14.
-# s = 'aaaa'
-# sub = 'aa'
-# count = 0
-# indices = []
-# for i in range(len(s) - len(sub) + 1):
-#     if s[i:i+len(sub)] == sub:
-#         indices.append(i)
-# print(indices)
+#3.
+#return multiple values as tuple
+def stats(nums):
+    return (sum(nums), min(nums), max(nums))
+s, mn, mx = stats([4, 7, 1, 9])
+print(s, mn, mx)
 
-#15
+#4.
+#combine two tuples to list
+t1 = (1, 2, 3)
+t2 = (4, 5)
+combined = list(t1 + t2)
+print(combined)
+
+#5.
+#highest frequency element
+t = (1, 2, 2, 3, 2, 4)
+freq = {x: t.count(x) for x in set(t)}
+print(max(freq, key=freq.get))
+
+#6.
+#check same elements regardless of order
+t1 = (1, 2, 3)
+t2 = (3, 2, 1)
+print(sorted(t1) == sorted(t2))
+
+#7.
+#extract last three items
+t = (1, 2, 3, 4, 5)
+print(t[-3:])
+
+#8.
+#concatenate tuple with itself
+t = (1, 2)
+print(t * 3)
+
+#9.
+#flatten nested tuple
+t = ((1, 2), (3, 4))
+flat = tuple(x for sub in t for x in sub)
+print(flat)
+
+#10.
+#manhattan distance between coordinates
+p1 = (2, 3)
+p2 = (5, 7)
+distance = abs(p1[0]-p2[0]) + abs(p1[1]-p2[1])
+print(distance)
+
+
+#=========Intermediate Set Questions=========
+
+#1.
+#elements in first set not second
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+print(s1 - s2)
+
+#2.
+#common items in three sets
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+s3 = {2, 3, 5}
+print(s1 & s2 & s3)
+
+#3.
+#unique lowercase words in sentence
+sentence = "Hello World hello"
+words = set(sentence.lower().split())
+print(words)
+
+#4.
+#list with duplicates to sorted list
+lst = [3, 1, 2, 1, 3]
+print(sorted(set(lst)))
+
+#5.
+#check strict subset
+s1 = {1, 2}
+s2 = {1, 2, 3}
+print(s1 < s2)
+
+#6.
+#set comprehension squares divisible by 3
+result = {x*x for x in range(1, 16) if x % 3 == 0}
+print(result)
+
+#7.
+#count duplicate values using sets
+lst = [1, 2, 2, 3, 3, 3]
+duplicates = len(lst) - len(set(lst))
+print(duplicates)
+
+#8.
+#remove vowels from string using set
+s = "hello world"
+vowels = set("aeiou")
+result = ''.join(ch for ch in s if ch not in vowels)
+print(result)
+
+#9.
+#symmetric difference between sets
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+print(s1 ^ s2)
+
+#10.
+#check anagram using set comparison
+s1 = "listen"
+s2 = "silent"
+print(set(s1) == set(s2))
+
+
+#=========Intermediate Dictionary Questions=========
+
+#1.
+#word frequency count
+sentence = "the cat sat on the mat"
+d = {}
+for word in sentence.split():
+    d[word] = d.get(word, 0) + 1
+print(d)
+
+#2.
+#invert dictionary
+d = {'a': 1, 'b': 2}
+inverted = {v: k for k, v in d.items()}
+print(inverted)
+
+#3.
+#merge two dicts second overrides
+d1 = {'a': 1, 'b': 2}
+d2 = {'b': 3, 'c': 4}
+merged = {**d1, **d2}
+print(merged)
+
+#4.
+#group words by first letter
+words = ['apple', 'ant', 'banana', 'bear']
+grouped = {}
+for w in words:
+    grouped.setdefault(w[0], []).append(w)
+print(grouped)
+
+#5.
+#filter dict values greater than 50
+d = {'a': 30, 'b': 60, 'c': 90}
+filtered = {k: v for k, v in d.items() if v > 50}
+print(filtered)
+
+#6.
+#safely access nested key
+d = {'a': {'b': {'c': 5}}}
+value = d.get('a', {}).get('b', {}).get('c', 'not found')
+print(value)
+
+#7.
+#dictionary comprehension cubes
+cubes = {x: x**3 for x in range(1, 11)}
+print(cubes)
+
+#8.
+#key with highest value
+d = {'a': 10, 'b': 50, 'c': 30}
+print(max(d, key=d.get))
+
+#9.
+#combine two lists into dict
+keys = ['a', 'b', 'c']
+values = [1, 2, 3]
+d = dict(zip(keys, values))
+print(d)
+
+#10.
+#remove keys with None values
+d = {'a': 1, 'b': None, 'c': 3}
+cleaned = {k: v for k, v in d.items() if v is not None}
+print(cleaned)
+
+
+#=========Beginner List Questions=========
+
+#1.
+#first and last elements
+nums = [3, 1, 4, 1, 5]
+print(nums[0], nums[-1])
+
+#2.
+#length of list
+colors = ['red', 'blue', 'green']
+print(len(colors))
+
+#3.
+#append element to list
+colors = ['red', 'blue']
+colors.append('yellow')
+print(colors)
+
+#4.
+#insert element at index
+fruits = ['apple', 'banana']
+fruits.insert(1, 'orange')
+print(fruits)
+
+#5.
+#remove element from list
+fruits = ['apple', 'banana', 'grapes']
+fruits.remove('banana')
+print(fruits)
+
+#6.
+#pop last element
+items = [10, 20, 30]
+popped = items.pop()
+print(popped, items)
+
+#7.
+#check if value exists
+nums = [1, 2, 3, 4]
+print(3 in nums)
+
+#8.
+#print slice of list
+a = [0, 1, 2, 3, 4]
+print(a[2:4])
+
+#9.
+#replace element at index
+a = [5, 10, 15]
+a[1] = 12
+print(a)
+
+#10.
+#count occurrences in list
+nums = [1, 2, 2, 3, 2]
+print(nums.count(2))
+
+
+#=========Beginner Tuple Questions=========
+
+#1.
+#print second element of tuple
+t = (10, 20, 30)
+print(t[1])
+
+#2.
+#length of tuple
+t = ('a', 'b', 'c')
+print(len(t))
+
+#3.
+#unpack tuple into variables
+x, y = (4, 5)
+print(x, y)
+
+#4.
+#check value in tuple
+t = ('a', 'b', 'c')
+print('b' in t)
+
+#5.
+#create empty tuple
+t = ()
+print(type(t))
+
+#6.
+#concatenate two tuples
+t = (1, 2) + (3, 4)
+print(t)
+
+#7.
+#repeat tuple three times
+t = (7,) * 3
+print(t)
+
+#8.
+#find index of value
+t = (1, 2, 3, 2)
+print(t.index(2))
+
+#9.
+#count occurrences in tuple
+t = (1, 2, 3, 2)
+print(t.count(2))
+
+#10.
+#single element tuple
+t = (5,)
+print(t)
+
+
+#=========Beginner Set Questions=========
+
+#1.
+#create set from list
+s = set([1, 2, 2, 3])
+print(s)
+
+#2.
+#add element to set
+s = {1, 2, 3}
+s.add(4)
+print(s)
+
+#3.
+#remove element from set
+s = {1, 2, 3}
+s.remove(2)
+print(s)
+
+#4.
+#check value in set
+s = {1, 3, 5}
+print(5 in s)
+
+#5.
+#length of set
+s = {10, 20, 30}
+print(len(s))
+
+#6.
+#clear all elements
+s = {1, 2, 3}
+s.clear()
+print(s)
+
+#7.
+#add element if missing
+s = {'a', 'b'}
+if 'c' not in s:
+    s.add('c')
+print(s)
+
+#8.
+#remove duplicates via set
+lst = ['a', 'a', 'b']
+s = set(lst)
+print(s)
+
+#9.
+#union of two sets
+s1 = {1, 2}
+s2 = {2, 3}
+print(s1 | s2)
+
+#10.
+#intersection of two sets
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+print(s1 & s2)
+
+
+#=========Beginner Dictionary Questions=========
+
+#1.
+#access value by key
+d = {'name': 'Ali', 'age': 25}
+print(d['name'])
+
+#2.
+#add new key value pair
+d = {'name': 'Ali'}
+d['city'] = 'Lahore'
+print(d)
+
+#3.
+#change existing value
+d = {'name': 'Ali', 'age': 25}
+d['age'] = 30
+print(d)
+
+#4.
+#delete key from dictionary
+d = {'name': 'Ali', 'age': 25}
+del d['age']
+print(d)
+
+#5.
+#check if key exists
+d = {'name': 'Ali'}
+print('salary' in d)
+
+#6.
+#print all keys
+d = {'a': 1, 'b': 2}
+print(d.keys())
+
+#7.
+#print all values
+d = {'a': 1, 'b': 2}
+print(d.values())
+
+#8.
+#iterate key value pairs
+d = {'x': 10, 'y': 20}
+for k, v in d.items():
+    print(k, v)
+
+#9.
+#safely read missing key
+d = {}
+print(d.get('score', 0))
+
+#10.
+#create dict from two lists
+keys = ['a', 'b']
+values = [1, 2]
+d = dict(zip(keys, values))
+print(d)
