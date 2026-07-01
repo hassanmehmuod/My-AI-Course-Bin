@@ -1,14 +1,27 @@
-
+#Python program to scrape website 
 
 import requests
 from bs4 import BeautifulSoup
 import csv
 
-URL = "https://www.ebay.com/b/Cell-Phones-Smartphones/9355/bn_320094"
-r = requests.get(URL)
+with open("D:\\Work\\Github\\My-AI-Course-Bin\\Webscrapping\\Ebay\\ebay.html", 'r', encoding='utf-8') as file:
+    soup = BeautifulSoup(file, 'html5lib')
 
-soap = BeautifulSoup(r.content, 'html5lib')
+smartphone = []
 
-smartphones = []
+table = soup.find('section', attrs = {'class':'brw-river'})
 
-table = soap.find('div', attrs = {})
+for row in table.find_all('li',
+                          attrs = {'class':'brwrvr__item-card'}):
+    smartphones = {}
+    smartphones['url'] = row.a['href']
+    smartphones['img'] = row.img['src']
+    smartphones['discription'] = row.img['alt']
+    smartphone.append(smartphones)
+
+filename = 'D:\\Work\\Github\\My-AI-Course-Bin\\Webscrapping\\Ebay\\smart-phonesData-BeautifulSoup.csv'
+with open(filename, 'w', newline='', encoding='utf-8') as f:
+    w = csv.DictWriter(f,['url', 'img', 'discription'])
+    w.writeheader()
+    for smartphones in smartphone:
+        w.writerow(smartphones)

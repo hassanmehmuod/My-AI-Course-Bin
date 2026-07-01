@@ -6,7 +6,7 @@ import csv
 
 with open("D:\\Work\\Github\\My-AI-Course-Bin\\Webscrapping\\Daraz\\Daraz.pk.html", 'r', encoding='utf-8') as file:
     soup = BeautifulSoup(file, 'html5lib')
-
+ 
 smartphone = []
 
 table = soup.find('div', attrs = {'data-qa-locator': 'general-products'})
