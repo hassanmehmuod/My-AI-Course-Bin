@@ -59,3 +59,17 @@ plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.title('Confusion Matrix - Logistic Regression')
 plt.show()
+
+from sklearn.tree import DecisionTreeClassifier
+
+dt_model = DecisionTreeClassifier(random_state=SEED)
+dt_model.fit(X_train_scaled, y_train)
+dt_pred = dt_model.predict(X_test_scaled)
+print("Decision Tree Accuracy:", accuracy_score(y_test, dt_pred))
+
+from sklearn.ensemble import RandomForestClassifier
+
+rf_model = RandomForestClassifier(random_state=SEED)
+rf_model.fit(X_train_scaled, y_train)
+rf_pred = rf_model.predict(X_test_scaled)
+print("Forest classifier Accuracy:", accuracy_score(y_test, rf_pred))
