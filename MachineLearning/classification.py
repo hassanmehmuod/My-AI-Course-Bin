@@ -73,3 +73,32 @@ rf_model = RandomForestClassifier(random_state=SEED)
 rf_model.fit(X_train_scaled, y_train)
 rf_pred = rf_model.predict(X_test_scaled)
 print("Forest classifier Accuracy:", accuracy_score(y_test, rf_pred))
+
+
+from sklearn.neighbors import KNeighborsClassifier
+
+kn_model = KNeighborsClassifier()
+kn_model.fit(X_train_scaled, y_train)
+kn_pred = kn_model.predict(X_test_scaled)
+print("KneighborsClassifier Accuracy: ",accuracy_score(y_test, kn_pred))
+
+
+from sklearn.svm import SVC
+
+svm_model = SVC(kernel='linear')
+svm_model.fit(X_train_scaled, y_train)
+svm_pred = svm_model.predict(X_test_scaled)
+print("SVM Accuracy: ",accuracy_score(y_test, svm_pred))
+ 
+
+X_train_small = X_train[['ram', 'battery_power', 'px_width', 'px_height']]
+X_test_small = X_test[['ram', 'battery_power', 'px_width', 'px_height']]
+
+scaler_small = StandardScaler() 
+X_train_small_scaled = scaler_small.fit_transform(X_train_small)
+X_test_small_scaled = scaler_small.transform(X_test_small)
+
+kn_small_model = KNeighborsClassifier()
+kn_small_model.fit(X_train_small_scaled, y_train)
+kn_small_pred = kn_small_model.predict(X_test_small_scaled)
+print("KNN (4 features) Accuracy:", accuracy_score(y_test, kn_small_pred))
